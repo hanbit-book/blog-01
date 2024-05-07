@@ -40,11 +40,11 @@ public class BoardController {
         return "redirect:/";
     }
 
-    @GetMapping("/" )
-    public String index(HttpServletRequest request) {
+    @GetMapping("/")
+    public String list(HttpServletRequest request) {
         List<Board> boardList = boardNativeRepository.findAll();
         request.setAttribute("boardList", boardList);
-        return "index";
+        return "board/list";
     }
 
     @GetMapping("/board/save-form")
