@@ -2,7 +2,7 @@
 
 ## Chapter 01 익명블로그 만들기
 ```text
-https://github.com/hanbit-book/blog-01.git
+https://github.com/hanbit-book/spring-01.git
 ```
 
 ![preview](./end.png)
